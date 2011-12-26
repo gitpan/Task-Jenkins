@@ -1,0 +1,25 @@
+---
+abstract: 'Collection of distributions for continuous integration using Jenkins'
+author:
+  - 'Jonas B. Nielsen (JONASBN)'
+build_requires:
+  Module::Build: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
+license: artistic
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-Jenkins
+provides:
+  Task::Jenkins:
+    file: lib/Task/Jenkins.pm
+    version: 0.01
+requires:
+  App::Prove: 0
+  Devel::Cover: 0
+  TAP::Formatter::JUnit: 0
+resources:
+  license: http://opensource.org/licenses/artistic-license.php
+version: 0.01
