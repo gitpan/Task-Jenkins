@@ -35,8 +35,8 @@ DESCRIPTION
     Using basic tool chain components like Test::Harness works out of the
     box.
 
-    For a tutorial on how to get started please see: logicLAB Continuous
-    Integration wiki page.
+    For a tutorial on how to get started please see: <logicLAB Continuous
+    Integration wiki page>.
 
     In order to extend this very basic behaviour you can use some additional
     CPAN distributions described below.
@@ -56,8 +56,8 @@ DESCRIPTION
 
         % ./Build test merge=1 tap_harness_args=formatter_class=TAP::Formatter::JUnit > jenkins-${JOB_NAME}-${BUILD_NUMBER}-junit.xml
 
-    See also TAP::Formatter::JUnit, or logicLAB TAP::Formatter::JUnit wiki
-    page
+    See also <TAP::Formatter::JUnit>, or <logicLAB TAP::Formatter::JUnit
+    wiki page >
 
   App::Prove
     App::Prove is a marvellous tool for initiating execution of a test
@@ -71,7 +71,7 @@ DESCRIPTION
 
     See TAP::Formatter::JUnit above.
 
-    See also App::Prove, or logicLAB App::Prove wiki page
+    See also <App::Prove>, or <logicLAB App::Prove wiki page>
 
   Devel::Cover
     Devel::Cover can be used to generate HTML coverage reports. Jenkins can
@@ -80,26 +80,34 @@ DESCRIPTION
 
     1 tick 'Publish HTML reports'
     2 specify the location:
-        * HTML directory to archive: 'cover_db', Devel::Cover default
-        * Index page(s): 'coverage.html', Devel::Cover default
-        * Report title: 'Coverage Report', something identifiable
+
+        *   HTML directory to archive: 'cover_db', Devel::Cover default
+
+        *   Index page(s): 'coverage.html', Devel::Cover default
+
+        *   Report title: 'Coverage Report', something identifiable
 
     Example:
 
         % ./Build testcover
 
-    See also Devel::Cover, or logicLAB Devel::Cover wiki page
+    See also <Devel::Cover>, or <logicLAB Devel::Cover wiki page>
 
 SEE ALSO
-    * Jenkins
-    * logicLAB Jenkins wiki page
-    * logicLAB Continuous Integration wiki page
-    * Module::Build
-    * logicLAB Module::Build wiki page
-    * Test::Harness
+    *   <Jenkins>
+
+    *   logicLAB Jenkins wiki page
+
+    *   logicLAB Continuous Integration wiki page
+
+    *   <Module::Build>
+
+    *   logicLAB Module::Build wiki page
+
+    *   <Test::Harness>
 
 AUTHOR
-    * Jonas B. Nielsen (jonasbn), `<jonasbn@cpan.org>'
+    *   Jonas B. Nielsen (jonasbn), "<jonasbn@cpan.org>"
 
 COPYRIGHT
     Task::Jenkins is (C) by Jonas B. Nielsen, (jonasbn) 2011

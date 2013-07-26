@@ -1,8 +1,8 @@
 package Task::Jenkins;
 
-# $Id: Jenkins.pm 7826 2011-12-24 09:53:55Z jonasbn $
+# $Id: Jenkins.pm 8120 2013-07-26 20:12:53Z jonasbn $
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 1;
 

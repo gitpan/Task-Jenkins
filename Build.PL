@@ -1,4 +1,4 @@
-# $Id: Build.PL 7826 2011-12-24 09:53:55Z jonasbn $
+# $Id: Build.PL 7830 2011-12-26 19:58:48Z jonasbn $
 
 use strict;
 use Module::Build;
@@ -17,6 +17,18 @@ my $build = Module::Build->new(
         'TAP::Formatter::JUnit' => '0',
         'Devel::Cover'          => '0',
         'App::Prove'            => '0',
+    },
+    meta_merge => {
+        resources => {
+            homepage => 'http://logiclab.jira.com/wiki/display/TJENKINS/Home',
+            bugtracker =>
+                'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-Jenkins',
+            repository => 'http://logicLAB.jira.com/svn/TJENKINS',
+            ProjectChangelog =>
+                'http://logiclab.jira.com/browse/TJENKINS#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel',
+            ProjectSite => 'http://logicLAB.jira.com/browse/TJENKINS',
+            ProjectWiki => 'http://logiclab.jira.com/wiki/display/TJENKINS/Home',
+        }
     },
 );
 
