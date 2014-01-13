@@ -1,8 +1,12 @@
 package Task::Jenkins;
 
-# $Id: Jenkins.pm 8120 2013-07-26 20:12:53Z jonasbn $
+# $Id$
 
-our $VERSION = '0.02';
+use strict;
+use warnings;
+use 5.006; #perl version 5.6.0
+
+our $VERSION = '0.03';
 
 1;
 
@@ -16,7 +20,7 @@ Task::Jenkins - collection of distributions for continuous integration using Jen
 
 =head1 VERSION
 
-This documentation describes version 0.01
+This documentation describes version 0.03
 
 =head1 SYNOPSIS
 
@@ -152,12 +156,13 @@ http://logiclab.jira.com/wiki/display/OPEN/Module-Build>
 
 =head1 COPYRIGHT
 
-Task::Jenkins is (C) by Jonas B. Nielsen, (jonasbn) 2011
+Task::Jenkins is (C) by Jonas B. Nielsen, (jonasbn) 2011-2013
 
 =head1 LICENSE
 
-Task::Jenkins is released under the artistic license
+Task::Jenkins is released under the Artistic License 2.0
 
-The distribution is licensed under the Artistic License, as specified by the Artistic file in the standard perl distribution (http://www.perl.com/language/misc/Artistic.html).
+The distribution is licensed under the Artistic License 2.0, 
+as specified by the license file included in this distribution.
 
 =cut

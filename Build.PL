@@ -1,7 +1,9 @@
-# $Id: Build.PL 7830 2011-12-26 19:58:48Z jonasbn $
+# $Id$
 
 use strict;
+use warnings;
 use Module::Build;
+use 5.006; #perl version 5.6.0
 
 my $build = Module::Build->new(
     dist_author => 'Jonas B. Nielsen (JONASBN)',
@@ -17,13 +19,14 @@ my $build = Module::Build->new(
         'TAP::Formatter::JUnit' => '0',
         'Devel::Cover'          => '0',
         'App::Prove'            => '0',
+        'perl'                  => '5.6.0',
     },
     meta_merge => {
         resources => {
             homepage => 'http://logiclab.jira.com/wiki/display/TJENKINS/Home',
             bugtracker =>
                 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-Jenkins',
-            repository => 'http://logicLAB.jira.com/svn/TJENKINS',
+            repository => 'https://github.com/jonasbn/tjenkins.git',
             ProjectChangelog =>
                 'http://logiclab.jira.com/browse/TJENKINS#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel',
             ProjectSite => 'http://logicLAB.jira.com/browse/TJENKINS',

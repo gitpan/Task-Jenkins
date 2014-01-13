@@ -1,5 +1,5 @@
 
-# $Id: 00-load.t 7827 2011-12-26 10:40:37Z jonasbn $
+# $Id$
 
 #Courtesy of Ovid
 #Ref: http://use.perl.org/~Ovid/journal/37797
