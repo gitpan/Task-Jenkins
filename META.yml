@@ -8,7 +8,7 @@ configure_requires:
   Module::Build: 0.40
 dynamic_config: 1
 generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.132830'
-license: artistic
+license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -16,7 +16,7 @@ name: Task-Jenkins
 provides:
   Task::Jenkins:
     file: lib/Task/Jenkins.pm
-    version: 0.03
+    version: 0.04
 requires:
   App::Prove: 0
   Devel::Cover: 0
@@ -28,6 +28,6 @@ resources:
   ProjectWiki: http://logiclab.jira.com/wiki/display/TJENKINS/Home
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-Jenkins
   homepage: http://logiclab.jira.com/wiki/display/TJENKINS/Home
-  license: http://www.perlfoundation.org/artistic_license_1_0
+  license: http://www.perlfoundation.org/artistic_license_2_0
   repository: https://github.com/jonasbn/tjenkins.git
-version: 0.03
+version: 0.04

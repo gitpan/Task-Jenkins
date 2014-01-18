@@ -6,7 +6,7 @@ use strict;
 use warnings;
 use 5.006; #perl version 5.6.0
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 1;
 
@@ -20,7 +20,7 @@ Task::Jenkins - collection of distributions for continuous integration using Jen
 
 =head1 VERSION
 
-This documentation describes version 0.03
+This documentation describes version 0.04
 
 =head1 SYNOPSIS
 
@@ -156,7 +156,7 @@ http://logiclab.jira.com/wiki/display/OPEN/Module-Build>
 
 =head1 COPYRIGHT
 
-Task::Jenkins is (C) by Jonas B. Nielsen, (jonasbn) 2011-2013
+Task::Jenkins is (C) by Jonas B. Nielsen, (jonasbn) 2011-2014
 
 =head1 LICENSE
 

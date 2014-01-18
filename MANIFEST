@@ -9,5 +9,6 @@ META.yml
 README
 t/00-load.t
 t/changes.t
+t/kwalitee-extra.t
 t/kwalitee.t
 t/pod.t

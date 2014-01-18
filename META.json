@@ -6,7 +6,7 @@
    "dynamic_config" : 1,
    "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.132830",
    "license" : [
-      "artistic_1"
+      "artistic_2"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -36,7 +36,7 @@
    "provides" : {
       "Task::Jenkins" : {
          "file" : "lib/Task/Jenkins.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
@@ -46,7 +46,7 @@
       },
       "homepage" : "http://logiclab.jira.com/wiki/display/TJENKINS/Home",
       "license" : [
-         "http://www.perlfoundation.org/artistic_license_1_0"
+         "http://www.perlfoundation.org/artistic_license_2_0"
       ],
       "repository" : {
          "url" : "https://github.com/jonasbn/tjenkins.git"
@@ -55,5 +55,5 @@
       "x_ProjectSite" : "http://logicLAB.jira.com/browse/TJENKINS",
       "x_ProjectWiki" : "http://logiclab.jira.com/wiki/display/TJENKINS/Home"
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
