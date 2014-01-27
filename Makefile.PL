@@ -8,7 +8,7 @@ WriteMakefile
   'PREREQ_PM' => {
                    'App::Prove' => '0',
                    'Devel::Cover' => '0',
-                   'Module::Build' => 0,
+                   'Devel::Cover::Report::Clover' => '0',
                    'TAP::Formatter::JUnit' => '0'
                  },
   'INSTALLDIRS' => 'site',

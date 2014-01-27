@@ -2,10 +2,9 @@
 abstract: 'Collection of distributions for continuous integration using Jenkins'
 author:
   - 'Jonas B. Nielsen (JONASBN)'
-build_requires:
-  Module::Build: 0
+build_requires: {}
 configure_requires:
-  Module::Build: 0.40
+  Module::Build: 0.4
 dynamic_config: 1
 generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.132830'
 license: artistic_2
@@ -16,10 +15,11 @@ name: Task-Jenkins
 provides:
   Task::Jenkins:
     file: lib/Task/Jenkins.pm
-    version: 0.04
+    version: 0.05
 requires:
   App::Prove: 0
   Devel::Cover: 0
+  Devel::Cover::Report::Clover: 0
   TAP::Formatter::JUnit: 0
   perl: v5.6.0
 resources:
@@ -30,4 +30,4 @@ resources:
   homepage: http://logiclab.jira.com/wiki/display/TJENKINS/Home
   license: http://www.perlfoundation.org/artistic_license_2_0
   repository: https://github.com/jonasbn/tjenkins.git
-version: 0.04
+version: 0.05

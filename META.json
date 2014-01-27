@@ -14,20 +14,16 @@
    },
    "name" : "Task-Jenkins",
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Module::Build" : "0"
-         }
-      },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.40"
+            "Module::Build" : "0.4"
          }
       },
       "runtime" : {
          "requires" : {
             "App::Prove" : "0",
             "Devel::Cover" : "0",
+            "Devel::Cover::Report::Clover" : "0",
             "TAP::Formatter::JUnit" : "0",
             "perl" : "v5.6.0"
          }
@@ -36,7 +32,7 @@
    "provides" : {
       "Task::Jenkins" : {
          "file" : "lib/Task/Jenkins.pm",
-         "version" : "0.04"
+         "version" : "0.05"
       }
    },
    "release_status" : "stable",
@@ -55,5 +51,5 @@
       "x_ProjectSite" : "http://logicLAB.jira.com/browse/TJENKINS",
       "x_ProjectWiki" : "http://logiclab.jira.com/wiki/display/TJENKINS/Home"
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }

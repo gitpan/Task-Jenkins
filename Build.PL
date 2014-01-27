@@ -14,12 +14,13 @@ my $build = Module::Build->new(
     recursive_test_files => 1,
     create_readme        => 1,
     create_makefile_pl   => 'traditional',
-    build_requires       => { 'Module::Build' => '0', },
+    configure_requires => { 'Module::Build' => 0.40 },
     requires             => {
-        'TAP::Formatter::JUnit' => '0',
-        'Devel::Cover'          => '0',
-        'App::Prove'            => '0',
-        'perl'                  => '5.6.0',
+        'TAP::Formatter::JUnit'        => '0',
+        'Devel::Cover'                 => '0',
+        'App::Prove'                   => '0',
+        'perl'                         => '5.6.0',
+        'Devel::Cover::Report::Clover' =>  '0',
     },
     meta_merge => {
         resources => {
